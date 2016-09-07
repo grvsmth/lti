@@ -1,5 +1,6 @@
 from collections import defaultdict
-from lxml import etree, objectify
+from lxml import objectify
+from xml.etree import ElementTree as etree
 
 from .utils import InvalidLTIConfigError
 
